@@ -24,11 +24,12 @@ public class MainActivity extends AppCompatActivity {
                         .setTitleColor(R.color.colorPrimary)
                         .setLoadingGifID(R.drawable.loading)
                         .setDoneGifID(R.drawable.done)
-                        .setDoneTitle("Good Blyat")
+                        .setDoneTitle("Nice Blyat")
                         .setLoadingTitle("Loading Your Content...").build();
                 stop();
             }
         });
+
     }
     private void stop(){
         new Handler().postDelayed(new Runnable() {

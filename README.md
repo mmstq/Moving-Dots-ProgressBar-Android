@@ -1,4 +1,8 @@
-# Gif-ProgressBar-Android
+# 
+
+![Alt text](Gif-ProgressBar-Android/ezgif.com-video-to-gif.gif ?raw=true "Gif-ProgressBar-Android")
+
+
 Material Design GIF Progress Bar Dialog With Customisation
 
 To get a Git project into your build:

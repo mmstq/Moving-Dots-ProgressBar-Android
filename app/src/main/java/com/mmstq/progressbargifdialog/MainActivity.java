@@ -22,8 +22,8 @@ public class MainActivity extends AppCompatActivity {
                 progressBarGIFDialog= new ProgressBarGIFDialog.Builder(MainActivity.this);
                 progressBarGIFDialog.setCancelable(false)
                         .setTitleColor(R.color.colorPrimary)
-                        .setLoadingGifID(R.drawable.loading)
-                        .setDoneGifID(R.drawable.done)
+                        .setLoadingGif(R.drawable.loading)
+                        .setDoneGif(R.drawable.done)
                         .setDoneTitle("Nice Blyat")
                         .setLoadingTitle("Loading Your Content...").build();
                 stop();

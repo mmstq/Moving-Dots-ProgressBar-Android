@@ -34,12 +34,12 @@ public class ProgressBarGIFDialog {
         private int titleColor,loadingGifID,doneGifID;
         private TextView tvTitle;
 
-        public Builder setDoneGifID(int doneGifID) {
+        public Builder setDoneGif(int doneGifID) {
             this.doneGifID = doneGifID;
             return this;
         }
 
-        public Builder setLoadingGifID(int loadingGifID) {
+        public Builder setLoadingGif(int loadingGifID) {
             this.loadingGifID = loadingGifID;
             return this;
         }

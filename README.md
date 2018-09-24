@@ -24,7 +24,7 @@ Step 2. Add the dependency
 
 	dependencies {
                 
-	        implementation 'com.github.mmstq:Gif-ProgressBar-Android:1.0'
+	        implementation 'com.github.mmstq:Gif-ProgressBar-Android:1.1'
 		implementation 'com.android.support:cardview-v7:27.1.1' // Cardview is necessary. Neglect if already have.
 	}
 

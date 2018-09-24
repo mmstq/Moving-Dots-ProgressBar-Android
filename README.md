@@ -32,12 +32,18 @@ ProgressBarGIFDialog.Builder progressBarGIFDialog
 
 progressBarGIFDialog= new ProgressBarGIFDialog.Builder(context);
                 progressBarGIFDialog
-		        .setCancelable(false)
+		        .setCancelable(false) 
+			
                         .setTitleColor(R.color.colorPrimary) // Set Title Color (int only)
+			
                         .setLoadingGifID(R.drawable.loading) // Set Loading Gif 
+			
                         .setDoneGifID(R.drawable.done) // Set Done Gif
+			
                         .setDoneTitle("Nice Blyat") // Set Done Title
+			
                         .setLoadingTitle("Loading Your Content...") // Set Loading Title
+			
                         .build();
            
 // To Stop The Dialog 

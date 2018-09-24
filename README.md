@@ -57,6 +57,4 @@ progressBarGIFDialog= new ProgressBarGIFDialog.Builder(context);
     
     'pl.droidsonroids.gif:android-gif-drawable:1.2.10'
     
-    
-     Gif-ProgressBar-Android/ezgif.com-video-to-gif.gif 
 

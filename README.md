@@ -31,8 +31,8 @@ ProgressBarGIFDialog.Builder progressBarGIFDialog
 //now initialise it in onCreate Method Of Your Activity
 
 progressBarGIFDialog= new ProgressBarGIFDialog.Builder(context);
-                progressBarGIFDialog
-		        .setCancelable(false) 
+
+                progressBarGIFDialog.setCancelable(false) 
 			
                         .setTitleColor(R.color.colorPrimary) // Set Title Color (int only)
 			

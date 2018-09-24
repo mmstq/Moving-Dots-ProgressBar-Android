@@ -30,15 +30,16 @@ ProgressBarGIFDialog.Builder progressBarGIFDialog
 
 //now initialise it in onCreate Method Of Your Activity
 
-progressBarGIFDialog= new ProgressBarGIFDialog.Builder(MainActivity.this);
-                progressBarGIFDialog.setCancelable(false)
-                        .setTitleColor(R.color.colorPrimary)
-                        .setLoadingGifID(R.drawable.loading)
-                        .setDoneGifID(R.drawable.done)
-                        .setDoneTitle("Nice Blyat")
-                        .setLoadingTitle("Loading Your Content...")
+progressBarGIFDialog= new ProgressBarGIFDialog.Builder(context);
+                progressBarGIFDialog
+		        .setCancelable(false)
+                        .setTitleColor(R.color.colorPrimary) // Set Title Color (int only)
+                        .setLoadingGifID(R.drawable.loading) // Set Loading Gif 
+                        .setDoneGifID(R.drawable.done) // Set Done Gif
+                        .setDoneTitle("Nice Blyat") // Set Done Title
+                        .setLoadingTitle("Loading Your Content...") // Set Loading Title
                         .build();
            
 // To Stop The Dialog 
 
-    progressBarGIFDialog.clear();
+    progressBarGIFDialog.clear(); // This will set Done Gif & Done Title, then dialog will dismiss after 2.7 seconds

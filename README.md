@@ -1,6 +1,8 @@
 # 
 
-![GIF](https://user-images.githubusercontent.com/39179965/45938974-981ca000-bfec-11e8-94f4-50c4b3d16d2d.gif)
+
+        Moving-Dots-ProgressBar-Android/ezgif.com-resize (1).gif
+      
 
 
 Material Design GIF Progress Bar Dialog With Customisation

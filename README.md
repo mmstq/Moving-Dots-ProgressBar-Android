@@ -1,5 +1,6 @@
 
       
+![loding dots](https://user-images.githubusercontent.com/39179965/46574522-38e26680-c9c2-11e8-8b7a-6680a3d346f8.gif)
 
 
 Material Design GIF Progress Bar Dialog With Customisation

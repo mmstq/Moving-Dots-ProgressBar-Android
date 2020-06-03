@@ -6,7 +6,7 @@ import android.app.Dialog;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Handler;
-import android.support.v7.content.res.AppCompatResources;
+import androidx.appcompat.content.res.AppCompatResources;
 import android.view.View;
 import android.view.Window;
 import android.widget.TextView;
@@ -33,6 +33,17 @@ public class ProgressBarGIFDialog {
         private GifImageView gifImageView;
         private int titleColor,loadingGifID,doneGifID;
         private TextView tvTitle;
+        private boolean cancelable = true;
+
+
+        public Builder(Activity activity) {
+            this.activity = activity;
+        }
+
+        public Builder setLoadingTitle(String titleLoading) {
+            this.titleLoading = titleLoading;
+            return this;
+        }
 
         public Builder setDoneGif(int doneGifID) {
             this.doneGifID = doneGifID;
@@ -41,17 +52,6 @@ public class ProgressBarGIFDialog {
 
         public Builder setLoadingGif(int loadingGifID) {
             this.loadingGifID = loadingGifID;
-            return this;
-        }
-
-        private boolean cancelable = true;
-
-        public Builder(Activity activity) {
-            this.activity = activity;
-        }
-
-        public Builder setLoadingTitle(String titleLoading) {
-            this.titleLoading = titleLoading;
             return this;
         }
 

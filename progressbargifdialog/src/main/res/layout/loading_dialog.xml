@@ -5,9 +5,9 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_gravity="center"
-    android:background="#FFFFFF">
+    android:background="#00FFFFFF">
 
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         app:cardCornerRadius="10dp"
@@ -18,36 +18,34 @@
         android:layout_centerHorizontal="true">
         <RelativeLayout
             android:layout_width="wrap_content"
+            android:padding="8dp"
             android:layout_height="wrap_content">
-            <RelativeLayout
-                android:layout_width="wrap_content"
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="120dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="0dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/loading"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/gifImageView" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="120dp"
                 android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:id="@+id/relativelayout1">
-                <pl.droidsonroids.gif.GifImageView
-                    android:layout_width="120dp"
-                    android:layout_height="60dp"
-                    android:layout_marginBottom="0dp"
-                    android:scaleType="fitXY"
-                    android:src="@drawable/loading"
-                    android:layout_centerHorizontal="true"
-                    android:id="@+id/gifImageView" />
+                android:textAlignment="center"
+                android:fontFamily="sans-serif"
+                android:textStyle="normal"
+                android:maxLines="2"
+                android:textColor="#FF8E08"
+                android:layout_marginBottom="5dp"
+                android:textSize="14sp"
+                android:layout_below="@id/gifImageView"
+                android:text="Loading..."
+                android:gravity="center_horizontal" />
 
-                <TextView
-                    android:id="@+id/title"
-                    android:layout_width="120dp"
-                    android:layout_height="wrap_content"
-                    android:textAlignment="center"
-                    android:fontFamily="sans-serif"
-                    android:textStyle="normal"
-                    android:maxLines="2"
-                    android:textSize="17sp"
-                    android:layout_below="@id/gifImageView"
-                    android:text="Loading Your Content..."/>
-
-            </RelativeLayout>
 
         </RelativeLayout>
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
 </RelativeLayout>

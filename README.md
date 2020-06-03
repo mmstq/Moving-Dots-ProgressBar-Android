@@ -24,7 +24,7 @@ Step 2. Add the dependency
 
 	dependencies {
                 
-	        implementation 'com.github.mmstq:Gif-ProgressBar-Android:1.0.1'
+	        implementation 'com.github.mmstq:Moving-Dots-ProgressBar-Android:1.2.0'
 	}
 
 How To Use:
@@ -56,7 +56,7 @@ How To Use:
     	progressBarGIFDialog.clear(); // This will set Done Gif & Done Title, then dialog will dismiss after 2.7 seconds
     
     
-// This library uses another library  
+This library uses another library  
     
 'pl.droidsonroids.gif:android-gif-drawable:1.2.10'
     

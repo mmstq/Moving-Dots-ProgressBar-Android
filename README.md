@@ -24,19 +24,18 @@ Step 2. Add the dependency
 
 	dependencies {
                 
-	        implementation 'com.github.mmstq:Gif-ProgressBar-Android:1.0'
-		implementation 'com.android.support:cardview-v7:27.1.1' // Cardview is necessary. Neglect if already have.
+	        implementation 'com.github.mmstq:Gif-ProgressBar-Android:1.0.1'
 	}
 
 How To Use:
 
-//Create a global variable
+	//Create a global variable
 
-ProgressBarGIFDialog.Builder progressBarGIFDialog
+	ProgressBarGIFDialog.Builder progressBarGIFDialog
 
-//now initialise it in onCreate Method Of Your Activity
+	//now initialise it in onCreate Method Of Your Activity
 
-progressBarGIFDialog= new ProgressBarGIFDialog.Builder(context);
+	progressBarGIFDialog= new ProgressBarGIFDialog.Builder(context);
 
                 progressBarGIFDialog.setCancelable(false) 
 			
@@ -51,14 +50,14 @@ progressBarGIFDialog= new ProgressBarGIFDialog.Builder(context);
                         .setLoadingTitle("Loading Your Content...") // Set Loading Title
 			
                         .build();
-           
-// To Stop The Dialog 
+          
+	// To Stop The Dialog 
 
-    progressBarGIFDialog.clear(); // This will set Done Gif & Done Title, then dialog will dismiss after 2.7 seconds
+    	progressBarGIFDialog.clear(); // This will set Done Gif & Done Title, then dialog will dismiss after 2.7 seconds
     
     
-    // This library uses another library  
+// This library uses another library  
     
-    'pl.droidsonroids.gif:android-gif-drawable:1.2.10'
+'pl.droidsonroids.gif:android-gif-drawable:1.2.10'
     
 
